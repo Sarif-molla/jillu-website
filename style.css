@@ -1,0 +1,195 @@
+body,h1,h2,h3,h4,h5,p{
+  font-family: "Work Sans", sans-serif;
+  
+}
+img{
+    max-width: 100%;
+}
+/*slider section*/
+
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+
+}
+.slider-section::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.568);
+    z-index: -1;
+
+}
+
+
+.col{
+    
+        line-height: 35px;
+        display: block;
+        text-align: center;
+        padding-top: 147px;
+    
+}
+.slider-section h2{
+    font-size: 44px;
+    color: #e311d1;
+    margin-bottom: 23px;
+}
+.slider-section h4{
+    font-size: 27px;
+    color: yellow;
+    margin-bottom: 18px;
+}
+
+/*header style*/
+.jon-header{
+
+}
+
+.jon-header span {
+    background: #3064af;
+    color: blanchedalmond;
+    width: 34px;
+    height: 44px;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: 7px;
+    left: -8px;
+}
+
+
+/*about section*/
+.about-section{
+    background: #ffffff;
+}
+
+/*details section*/
+.details-section{
+
+    background: #dceeff;
+}
+.img-left{
+width: 60%;
+}
+.text-right{
+    width: 40%;
+}
+.text-right h2 {
+    margin-top: 4px;
+    font-weight: 600;
+}
+.text-rightp {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+.iron-man{
+    
+
+}
+.box-style{
+    box-shadow: 4px 5px 10px 5px ;
+}
+
+/*portfollio section*/
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfollio-section{
+    background: #ffffff;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #7163f0b2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/*stagi section*/
+.statigi-item{
+    box-shadow: 2px 5px 10px 5px ;
+    background: #f5f7f6;
+    height: 500px;
+    
+}
+.statagi{
+    background: hsl(0, 0%, 89%);
+}
+
+.statigi-item span{
+    color: blue;
+    font-size: 30px;
+    font-weight: 900;
+}
+.statigi-item ul li{
+    font-size: 30px;
+    list-style: none !important ;
+    margin-top: 5px;
+}
+.statigi-item a{
+    margin-left: 30%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
+.meooo{
+    justify-content: center;
+    
+    margin-left: 500px;
+}
+.joson-id{
+    background: #d4d4d4;
+}
+
+
+/*team history*/
+.team-history{
+    background: rgb(230, 248, 230);
+    color: #000000
+}
+
+
+
+.contact-section ul li{
+    list-style: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.contact-section form{
+    border: 4px solid #b3a2a2;
+}
+
+.getapp-section img{
+ max-width: 700px;
+
+}
+
